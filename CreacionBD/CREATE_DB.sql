@@ -1,0 +1,73 @@
+CREATE DATABASE TallerMecanicoDB;
+GO
+
+USE TallerMecanicoDB;
+GO
+
+CREATE TABLE CLIENTES (
+    IDCliente INT IDENTITY(1,1) PRIMARY KEY,
+    DNI VARCHAR(20) NOT NULL UNIQUE,
+    Nombre VARCHAR(100) NOT NULL,
+    Apellido VARCHAR(100) NOT NULL,
+    Telefono VARCHAR(20),
+    Email VARCHAR(100),
+    Direccion VARCHAR(150),
+    Activo BIT DEFAULT 1
+);
+GO
+
+CREATE TABLE MARCAS (
+    IDMarca INT IDENTITY(1,1) PRIMARY KEY,
+    NombreMarca VARCHAR(50) NOT NULL UNIQUE
+);
+GO
+
+CREATE TABLE VEHICULOS (
+    Patente VARCHAR(15) PRIMARY KEY,
+    IDCliente INT NOT NULL,
+    IDMarca INT NOT NULL,
+    Modelo VARCHAR(50) NOT NULL,
+    Anio INT CHECK (Anio >= 1900),
+    Kilometraje INT CHECK (Kilometraje >= 0),
+    FOREIGN KEY (IDCliente) REFERENCES CLIENTES(IDCliente),
+    FOREIGN KEY (IDMarca) REFERENCES MARCAS(IDMarca)
+);
+GO
+
+CREATE TABLE MECANICOS (
+    IDMecanico INT IDENTITY(1,1) PRIMARY KEY,
+    DNI VARCHAR(20) NOT NULL UNIQUE,
+    Nombre VARCHAR(100) NOT NULL,
+    Apellido VARCHAR(100) NOT NULL,
+    Especialidad VARCHAR(100),
+    Telefono VARCHAR(20),
+    Activo BIT DEFAULT 1
+);
+GO
+
+CREATE TABLE ESTADOS_ORDEN (
+    IDEstado INT IDENTITY(1,1) PRIMARY KEY,
+    NombreEstado VARCHAR(50) NOT NULL UNIQUE
+);
+GO
+
+CREATE TABLE PROVEEDORES (
+    IDProveedor INT IDENTITY(1,1) PRIMARY KEY,
+    RazonSocial VARCHAR(100) NOT NULL,
+    Telefono VARCHAR(20),
+    Email VARCHAR(100)
+);
+GO
+
+CREATE TABLE REPUESTOS (
+    IDRepuesto INT IDENTITY(1,1) PRIMARY KEY,
+    IDProveedor INT NOT NULL,
+    Codigo VARCHAR(50) NOT NULL UNIQUE,
+    Nombre VARCHAR(100) NOT NULL,
+    Descripcion VARCHAR(255),
+    PrecioUnitario DECIMAL(10,2) CHECK (PrecioUnitario >= 0),
+    StockActual INT CHECK (StockActual >= 0),
+    StockMinimo INT DEFAULT 5,
+    FOREIGN KEY (IDProveedor) REFERENCES PROVEEDORES(IDProveedor)
+);
+GO

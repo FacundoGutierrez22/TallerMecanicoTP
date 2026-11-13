@@ -1,10 +1,6 @@
 USE TallerMecanicoDB;
 GO
 
--- =============================================
--- PROCEDIMIENTOS ALMACENADOS (Stored Procedures)
--- =============================================
-
 -- SP 1: Consulta del historial de reparaciones por patente
 CREATE PROCEDURE SP_ReporteHistorialVehiculo
     @Patente VARCHAR(15)
@@ -12,6 +8,12 @@ AS
 BEGIN
     SET NOCOUNT ON;
     
+    IF NOT EXISTS (SELECT 1 FROM VEHICULOS WHERE Patente = @Patente)
+    BEGIN
+        RAISERROR('La patente ingresada no existe en el sistema.', 16, 1);
+        RETURN;
+    END
+
     SELECT 
         ot.IDOrden,
         ot.FechaIngreso,
@@ -36,7 +38,6 @@ CREATE PROCEDURE SP_AgregarRepuestoAOrden
 AS
 BEGIN
     SET NOCOUNT ON;
-    
     BEGIN TRY
         BEGIN TRANSACTION;
         

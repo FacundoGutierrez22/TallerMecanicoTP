@@ -70,11 +70,7 @@ BEGIN
         INSERT INTO DETALLE_ORDEN_REPUESTOS (IDOrden, IDRepuesto, Cantidad, PrecioUnitario, Subtotal)
         VALUES (@IDOrden, @IDRepuesto, @Cantidad, @PrecioUnitario, @Subtotal);
 
-        -- Actualizar costo total en la orden de trabajo
-        UPDATE ORDENES_TRABAJO
-        SET CostoTotal = CostoTotal + @Subtotal
-        WHERE IDOrden = @IDOrden;
-
+       
         COMMIT TRANSACTION;
     END TRY
     BEGIN CATCH

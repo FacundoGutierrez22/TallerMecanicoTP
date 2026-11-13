@@ -1,7 +1,7 @@
 USE TallerMecanicoDB;
 GO
 
---vista VW_VehiculosEnReparacion: tehículos actualmente en estado "En Proceso"
+--vista VW_VehiculosEnReparacion: vehiculos actualmente en estado "En Proceso"
 CREATE VIEW VW_VehiculosEnReparacion AS
 SELECT 
     ot.IDOrden,
@@ -22,7 +22,7 @@ INNER JOIN ESTADOS_ORDEN eo ON ot.IDEstado = eo.IDEstado
 WHERE eo.NombreEstado = 'En Proceso';
 GO
 
---vista VW_IngresosPorMecanico: total acumulado por mano de obra agrupado por mecánico
+--vista VW_IngresosPorMecanico: total acumulado por mano de obra agrupado por mecanico
 CREATE VIEW VW_IngresosPorMecanico AS
 SELECT 
     m.IDMecanico,
@@ -33,4 +33,18 @@ SELECT
 FROM MECANICOS m
 LEFT JOIN ORDENES_TRABAJO ot ON m.IDMecanico = ot.IDMecanico
 GROUP BY m.IDMecanico, m.Nombre, m.Apellido, m.Especialidad;
+GO
+
+CREATE VIEW VW_RepuestosStockCritico AS
+SELECT 
+    r.IDRepuesto,
+    r.Codigo,
+    r.Nombre AS Repuesto,
+    r.StockActual,
+    r.StockMinimo,
+    p.RazonSocial AS Proveedor,
+    p.Telefono AS ContactoProveedor
+FROM REPUESTOS r
+INNER JOIN PROVEEDORES p ON r.IDProveedor = p.IDProveedor
+WHERE r.StockActual <= r.StockMinimo;
 GO

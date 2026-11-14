@@ -1,52 +1,47 @@
-# 🚗 Sistema de Gestión para Taller Mecánico
+🚗 Sistema de Gestión para Taller Mecánico
 
-Este proyecto consiste en el desarrollo de una **Base de Datos relacional para la gestión integral de un Taller Mecánico**, optimizando el control de atención a clientes, reparaciones, asignación de mecánicos e inventario de repuestos.
+Este proyecto consiste en el desarrollo de una Base de Datos relacional para la gestión integral de un Taller Mecánico, optimizando el control de atención a clientes, órdenes de reparación, asignación de mecánicos e inventario de repuestos.
 
-## 📚 Contexto Académico
+📚 Contexto Académico
 
-Este sistema fue desarrollado en el marco de la materia **Base de Datos 2** de la **Tecnicatura Universitaria en Programación - UTN FRGP**.
+Este sistema fue desarrollado en el marco de la materia Base de Datos 2 de la Tecnicatura Universitaria en Programación - UTN FRGP.
 
-### 👥 Integrantes del equipo (Equipo # 30)
+👥 Integrantes del equipo (Grupo 30)
 
-- **Gutiérrez, Facundo**
-- **Ponce, Alberto Alejandro**
+Gutiérrez, Facundo
 
----
+Ponce, Alberto Alejandro
 
-## 🧩 Descripción del Sistema
+🧩 Descripción del Sistema
 
 El sistema permite administrar el ciclo de vida completo de una orden de trabajo en el taller:
 
-- **Gestión de Clientes y Vehículos:** Registro de propietarios y vinculación con su flota de vehículos (identificados por patente, marca, modelo, año y kilometraje).
-- **Órdenes de Trabajo:** Seguimiento del estado de reparaciones (Pendiente, En Proceso, Esperando Repuestos, Finalizada, Entregada), capturando diagnósticos y kilometraje histórico.
-- **Asignación de Personal:** Administración de mecánicos y asignación según su especialidad.
-- **Control de Inventario y Proveedores:** Gestión del stock de repuestos, precios unitarios, alertas de stock mínimo y control de proveedores.
-- **Trazabilidad e Historiales:** Auditoría de cambios de estado en las órdenes y registro histórico de variaciones de precios en repuestos.
+Gestión de Clientes y Vehículos: Registro de propietarios (con soporte para baja lógica) y vinculación con sus vehículos identificados por patente, marca normalizada, modelo, año y kilometraje.
 
-La base de datos gestiona las siguientes entidades principales:
+Órdenes de Trabajo: Seguimiento del estado de reparaciones (Pendiente, En Proceso, Esperando Repuestos, Finalizada, Entregada), capturando diagnósticos iniciales, fechas prometidas/de entrega y kilometraje histórico al ingreso.
 
-- Clientes
-- Vehículos y Marcas
-- Mecánicos
-- Estados de Orden e Historial de Estados
-- Órdenes de Trabajo
-- Proveedores, Repuestos e Historial de Precios
-- Detalle de Orden (Repuestos consumidos)
+Asignación de Personal: Administración de mecánicos activos y asignación según especialidad técnica.
 
----
+Control de Inventario y Proveedores: Gestión de catálogo de repuestos, precios unitarios, alertas de stock mínimo y contacto con proveedores.
+
+Trazabilidad e Historiales: Auditoría automática de cambios de estado en las órdenes y registro histórico de variaciones de precios en repuestos.
+
+La base de datos gestiona las siguientes entidades:
+
+CLIENTES
+
+VEHICULOS y MARCAS
+
+MECANICOS
+
+ESTADOS_ORDEN e HISTORIAL_ESTADOS
+
+ORDENES_TRABAJO
+
+PROVEEDORES, REPUESTOS e HISTORIAL_PRECIOS_REPUESTOS
+
+DETALLE_ORDEN_REPUESTOS
 
 
 
-## 📝 Recomendaciones para la ejecución del Script SQL
-
-- La base de datos debe crearse bajo el nombre `TallerMecanicoDB`.
-- Para una correcta ejecución en SQL Server, ejecutar el script completo de manera secuencial respetando las secciones:
-  1. Creación de la base de datos y selección (`CREATE DATABASE` / `USE`).
-  2. Tablas maestras e independientes.
-  3. Tablas relacionales con restricciones `FOREIGN KEY`, `UNIQUE` y `CHECK`.
-  4. Inserción de datos de prueba (`INSERT INTO`).
-  5. Creación de objetos programables (Vistas, Stored Procedures y Triggers).
-
----
-
-## Equipo 30 - UTN FRGP
+Grupo 30 - UTN FRGP

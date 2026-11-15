@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\tallermecanico\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\facupc\\downloads\\bdd2\\tp\\tallermecanico\\webtm\\tallermecanico\\tallermecanico\\clientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\clientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\facupc\\downloads\\bdd2\\tp\\tallermecanico\\webtm\\tallermecanico\\tallermecanico\\clientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\clientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\facupc\\downloads\\bdd2\\tp\\tallermecanico\\webtm\\tallermecanico\\tallermecanico\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
@@ -35,7 +43,7 @@
       "RelativeMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\ordenes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\facupc\\downloads\\bdd2\\tp\\tallermecanico\\webtm\\tallermecanico\\tallermecanico\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\tallermecanico\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64758BAD-30E4-4E27-89A7-887DA3AFBDE9}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +70,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Clientes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Clientes.aspx.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\Clientes.aspx.cs",
+              "ToolTip": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Clientes.aspx.cs",
+              "RelativeToolTip": "TallerMecanico\\Clientes.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-15T02:56:12.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clientes.aspx",
+              "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Clientes.aspx",
+              "RelativeDocumentMoniker": "TallerMecanico\\Clientes.aspx",
+              "ToolTip": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Clientes.aspx",
+              "RelativeToolTip": "TallerMecanico\\Clientes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-11-15T02:55:56.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Default.aspx",
               "RelativeDocumentMoniker": "TallerMecanico\\Default.aspx",
@@ -70,12 +104,11 @@
               "RelativeToolTip": "TallerMecanico\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-15T01:52:08.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:52:08.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HistorialVehiculo.aspx",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\HistorialVehiculo.aspx",
               "RelativeDocumentMoniker": "TallerMecanico\\HistorialVehiculo.aspx",
@@ -83,12 +116,11 @@
               "RelativeToolTip": "TallerMecanico\\HistorialVehiculo.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-15T01:54:33.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:54:33.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Ordenes.aspx.cs",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Ordenes.aspx.cs",
               "RelativeDocumentMoniker": "TallerMecanico\\Ordenes.aspx.cs",
@@ -96,12 +128,11 @@
               "RelativeToolTip": "TallerMecanico\\Ordenes.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:53:31.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:53:31.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Site.Master",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Site.Master",
               "RelativeDocumentMoniker": "TallerMecanico\\Site.Master",
@@ -114,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Site.Master.cs",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Site.Master.cs",
               "RelativeDocumentMoniker": "TallerMecanico\\Site.Master.cs",
@@ -122,12 +153,11 @@
               "RelativeToolTip": "TallerMecanico\\Site.Master.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:57:01.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:57:01.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Inventario.aspx",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Inventario.aspx",
               "RelativeDocumentMoniker": "TallerMecanico\\Inventario.aspx",
@@ -135,12 +165,11 @@
               "RelativeToolTip": "TallerMecanico\\Inventario.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-15T01:54:00.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:54:00.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Inventario.aspx.cs",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Inventario.aspx.cs",
               "RelativeDocumentMoniker": "TallerMecanico\\Inventario.aspx.cs",
@@ -152,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Datos\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "TallerMecanico\\Datos\\AccesoDatos.cs",
@@ -160,12 +189,11 @@
               "RelativeToolTip": "TallerMecanico\\Datos\\AccesoDatos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:32:12.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:32:12.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Default.aspx.cs",
               "RelativeDocumentMoniker": "TallerMecanico\\Default.aspx.cs",
@@ -173,12 +201,11 @@
               "RelativeToolTip": "TallerMecanico\\Default.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:52:26.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:52:26.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "HistorialVehiculo.aspx.cs",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\HistorialVehiculo.aspx.cs",
               "RelativeDocumentMoniker": "TallerMecanico\\HistorialVehiculo.aspx.cs",
@@ -186,12 +213,11 @@
               "RelativeToolTip": "TallerMecanico\\HistorialVehiculo.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:54:43.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:54:43.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Ordenes.aspx",
               "DocumentMoniker": "C:\\Users\\FacuPC\\Downloads\\BDD2\\tp\\TallerMecanico\\WebTM\\TallerMecanico\\TallerMecanico\\Ordenes.aspx",
               "RelativeDocumentMoniker": "TallerMecanico\\Ordenes.aspx",
@@ -199,8 +225,7 @@
               "RelativeToolTip": "TallerMecanico\\Ordenes.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-15T01:53:22.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-15T01:53:22.171Z"
             }
           ]
         }
